@@ -1,0 +1,259 @@
+*{
+    box-sizing: border-box;
+    margin:0px;
+    font-family: 'Roboto', sans-serif;
+    color: rgba(0, 0, 0, 0.45);
+}
+
+.main-container{
+    background-color: #0093E9;
+background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.drive{
+    height: 90%;
+    width: 85%;
+    background-color: #F5F5F5;;
+    border-radius: 0.25rem;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+    display: flex;
+    flex-direction: row;
+}
+
+.left{
+    min-width: 10rem;
+    margin-top: 0.25rem;
+}
+
+.right{
+    min-width: 10rem;
+    width: 15%;
+    padding: 5px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    /* border: 1px solid red; */
+}
+
+.frame{
+    margin-top: 0.5rem;
+    color: #595959;
+    padding: 5px;
+    /* box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px; */
+}
+
+.frame-content{
+    margin: 0.8rem;
+    margin-top: 8px;
+    margin-left: 0.9rem;
+    font-weight: 300;
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+}
+
+.frame-content>img{
+    margin-right: 5px;
+}
+
+.frame-heading{
+    color: #595959;
+    margin: 5px;
+    font-weight: 500;
+}
+
+.left-heading{
+    width: 100%;
+    height: 2.5rem;
+    display: flex;
+    /* box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px; */
+    align-items: center;
+    justify-content: center;
+}
+
+.left-heading>img{
+    width: 120%;
+    height: 135%;
+}
+
+.select{
+    background-color: #BFBFBF;
+    height: 1.5rem;
+    margin-right: 0px;
+    border-right: 2px solid rgb(95,94,94);
+    display: flex;
+    align-items: center;
+    padding-left: 0.5rem;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+
+.storage-details{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.storage-details>div{
+    margin-bottom: 1rem;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.storage-heading{
+    margin-left: 0.5rem; 
+    color: rgb(95,94,94);
+}
+
+.storage-limit{
+    font-weight: 600;
+    font-size: 0.8rem;
+}
+
+.storage-details>button{
+    padding: 2px;
+    margin: 2px;
+    color: rgb(95,94,94);
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    background: #FFFFFF;
+    /* border-top: none;
+    border-right: none; */
+    border-color: rgb(221, 221, 221);
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 0.8rem;
+    box-shadow: rgba(95,94,94 0.1) 0px 1px 2px 0px;
+}
+
+.right-heading{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 5px;
+}
+
+.profile-picture{
+    height: 64px;
+    width: 64px;
+    border-radius: 50%;
+    background-image: url(./images&videos/YojanGandha-Image-I.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.profile-details>div{
+    margin: 5px;
+}
+
+.profile-name{
+    color: rgb(95,94,94);
+    font-weight: 600;
+    font-size: 1.05rem;
+}
+
+.profile-settings{
+    font-size: 0.88rem;
+}
+
+.center{
+    background-color: #ffffff;
+    width: 70%;
+    /* box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px; */
+    padding: 1.5rem;
+}
+
+.drive-nav{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#drive-heading{
+    font-weight: 798;
+    font-size: x-large;
+    color: rgb(85, 85, 85);
+}
+
+.utility-pannel{
+    height: 42px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.functions{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: space-between; */
+    height: 90%;
+    width: 100%;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+}
+
+.functions>input{
+    height: 90%;
+    width: 91%;
+    outline: none;
+    padding: 0.5rem;
+    border: 0px solid rgba(9, 30, 66, 0.25);
+    /* box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px; */
+}
+
+.functions>span{
+    border-left: 1px solid rgba(9, 30, 66, 0.25);
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.folder-display{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem;
+    padding-left: auto;
+    padding-right: auto;
+    /* border: 1px solid red; */
+    flex-wrap: wrap;
+}
+
+.folder-frame{
+    width: 105px;
+    height: auto;
+    margin: 1rem;
+    /* border: 1px solid red; */
+}
+
+.folder-name,.item-count,.size{
+    margin: 2.5px;
+}
+
+#pinned{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+}
+
+#pinned-heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+}
